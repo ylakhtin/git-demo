@@ -36,3 +36,12 @@ Undoing changes
 		git reset <or> git reset --mixed				to roll one commit back to file system: git reset --mixed HEAD~1
 	Undoing changes without roll back later
 		git reset --hard
+vi editor
+	Enter edit mode
+		Insert button
+	To close edit mode
+		Escape button
+	To apply chnages and to close vi
+		:wq
+	To skip changes and to close vi
+		:q!
