@@ -1,0 +1,10 @@
+Undoing changes
+	Working directory
+		git checkout -- file.txt
+		git heckout .
+		git clean -xdf
+	Staging area(index)
+		git reset -- file.txt
+	Local branch
+		git reset HEAD^^ (HEAD~2)
+		git commit --amend -m "commit message"
