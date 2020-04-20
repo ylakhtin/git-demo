@@ -36,5 +36,3 @@ Undoing changes
 		git reset <or> git reset --mixed				to roll one commit back to file system: git reset --mixed HEAD~1
 	Undoing changes without roll back later
 		git reset --hard
-		
-------test revert command------------
