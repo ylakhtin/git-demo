@@ -1,10 +1,38 @@
+		ssh-keygen -t rsa –C “email@domain.com"			key generation
+		git config --global user.name “Vitali Shulha“				user name
+		git config --global user.email “vitali_Shulha@epam.com"		email
+Clone a repository - use UI on Github.
+		git clone <string from Github UI>
+To see the list of changed files
+		git status
+To add files into index
+		git add <filename>
+To commit
+		git commit -m "message"
+To see commit history
+		git log
+To move changes to remote repository
+		git push
+To pull the changes from remote repo
+		git pull
+Tools
+		gitk&
+		git gui&
 Undoing changes
 	Working directory
-		git checkout -- file.txt
-		git heckout .
-		git clean -xdf
+		git checkout -- file.txt						to cancel changes in a particular file
+		git heckout .									to cancel changes in files and folders
+		git clean -xdf									to delete all the files and directories
 	Staging area(index)
-		git reset -- file.txt
+		git reset -- file.txt							to remove the files from index							
 	Local branch
-		git reset HEAD^^ (HEAD~2)
-		git commit --amend -m "commit message"
+		git reset HEAD^^ (HEAD~2)						to cancel commited changes
+		git commit --amend -m "commit message"			to add something to already commited but not pushed changes
+	Remote repository
+		git revert <sha1>
+	Undoing to a previous stage
+		git reset										to come roll one commit back: git reset -- HEAD~1
+	Undoing to a file system
+		git reset <or> git reset --mixed				to roll one commit back to file system: git reset --mixed HEAD~1
+	Undoing changes without roll back later
+		git reset --hard
