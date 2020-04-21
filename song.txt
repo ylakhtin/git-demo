@@ -14,3 +14,5 @@ One more addition to see a difference between master branch and feature branch.
 Non fast forward merge feature song
 
 Commit to a master branch
+
+Commit from feature branch
