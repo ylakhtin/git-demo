@@ -46,6 +46,8 @@ vi editor
 	To skip changes and to close vi
 		:q!
 Branches
+	To show all the branches in repo
+		git branch --all
 	To create a new branch and to move into it
 		git checkout -b <branch name>
 	To switch to <branch name>
@@ -65,4 +67,4 @@ Branches
 	To skip my change and use others change
 		git checkout --Xtheirs
 	To revert a merge
-		git revert <SHA1>
+		git revert <SHA1>	
