@@ -50,7 +50,7 @@ Branches
 		git checkout -b <branch name>
 	To switch to <branch name>
 		git checkout <branch name>
-	To apply <branch name> to a master (Fast forward merge):
+	To apply <branch name> to a master:
 		git checkout master 							We need to be in a master branch to merge another branch to master
 		git merge <branch name>							We merge <branch name> into a master branch
 		
