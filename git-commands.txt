@@ -45,3 +45,12 @@ vi editor
 		:wq
 	To skip changes and to close vi
 		:q!
+Branches
+	To create a new branch and to move into it
+		git checkout -b <branch name>
+	To switch to <branch name>
+		git checkout <branch name>
+	To apply <branch name> to a master (Fast forward merge):
+		git checkout master 							We need to be in a master branch to merge another branch to master
+		git merge <branch name>							We merge <branch name> into a master branch
+		
