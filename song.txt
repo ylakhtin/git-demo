@@ -12,3 +12,5 @@ This was added in feature branch.
 One more addition to see a difference between master branch and feature branch.
 
 Non fast forward merge feature song
+
+Commit from feature branch
