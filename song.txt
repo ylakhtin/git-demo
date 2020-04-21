@@ -7,3 +7,5 @@ Row 6
 Row 7
 After indexed
 To add after a commit is done
+
+This was added in feature branch.
