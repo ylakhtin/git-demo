@@ -53,4 +53,16 @@ Branches
 	To apply <branch name> to a master:
 		git checkout master 							We need to be in a master branch to merge another branch to master
 		git merge <branch name>							We merge <branch name> into a master branch
-		
+	Conflict resolving
+	To resolve a conflict edit the file in master branch (making decision on what to keep in the file)
+		git status										We can see the options for conflict resolving: commit or abort
+		git add <file name>								To add it to index
+		git commit -m "messsage"						To commit
+	To abort a merge
+		git merge --abort
+	To apply only my changes
+		git checkout --Xours
+	To skip my change and use others change
+		git checkout --Xtheirs
+	To revert a merge
+		git revert <SHA1>
