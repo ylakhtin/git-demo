@@ -18,3 +18,5 @@ Commit to a master branch
 Commit from feature branch
 
 Stashing
+
+add first half of my favorite song
