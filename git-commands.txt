@@ -77,5 +77,11 @@ Tags
 		git push --tags
 	To check it out										Tags can be used instead of SHA1 to navigate to tagged commit
 		git checkout tagname
-	
-	
+Stashing
+	To save work progress for work to be continued later
+		git stash save "label"
+	To see all the stashes
+		git stash list
+	To recover from stash
+		git stash pop <stashname>						To recover from stash and to delete the stash
+		git stash apply	<stashname>						To recover from stash and to keep the stash
