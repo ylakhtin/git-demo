@@ -85,3 +85,13 @@ Stashing
 	To recover from stash
 		git stash pop <stashname>						To recover from stash and to delete the stash
 		git stash apply	<stashname>						To recover from stash and to keep the stash
+	To delete unnecessary stash
+		git stash drop
+Remotes
+	To see all the remotes
+		git remote -v
+	To remove remotes
+		git remote remove origin
+	To add remote
+		git remote add origin git@github.com:ylakhtin/git-demo.git
+	
