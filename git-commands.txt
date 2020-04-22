@@ -85,4 +85,3 @@ Stashing
 	To recover from stash
 		git stash pop <stashname>						To recover from stash and to delete the stash
 		git stash apply	<stashname>						To recover from stash and to keep the stash
-

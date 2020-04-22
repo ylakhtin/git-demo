@@ -16,3 +16,5 @@ Non fast forward merge feature song
 Commit to a master branch
 
 Commit from feature branch
+
+Stashing
