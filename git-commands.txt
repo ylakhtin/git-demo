@@ -67,4 +67,15 @@ Branches
 	To skip my change and use others change
 		git checkout --Xtheirs
 	To revert a merge
-		git revert <SHA1>	
+		git revert <SHA1>
+Tags
+	To add a tag to the last commit
+		git tag "tag string"
+	To view tags
+		git tag -list
+	To push all the tags to repo
+		git push --tags
+	To check it out										Tags can be used instead of SHA1 to navigate to tagged commit
+		git checkout tagname
+	
+	
