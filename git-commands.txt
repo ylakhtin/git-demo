@@ -94,4 +94,10 @@ Remotes
 		git remote remove origin
 	To add remote
 		git remote add origin git@github.com:ylakhtin/git-demo.git
-	
+Books:
+1. Pro Git, Scott Chacon and Ben Straub https://git-scm.com/book/en/v2 FREE!
+2. Version control with Git, O'REILLY
+
+Extras
+	To see all the persons who edited a <file>
+		git blame <file>	
