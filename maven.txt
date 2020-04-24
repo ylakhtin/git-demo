@@ -1,0 +1,16 @@
+To create a project from archetype
+	mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.3
+	
+	groupId=com.epam.automation
+	artifactId=maven-demo
+	version=default(press Enter)
+	package=default(press Enter)
+Build lifecycle
+	clean			Cleans up "target" folder to delete previous "test" results
+	test			Compiles an application and runs tests
+	package			To pack an application
+	install			To install on localhost
+	deploy			To deploy into binary storage
+Dependency management
+	Find a library on search.maven.org
+	Choose a version and add it to POM (take dependency block from library page on search.maven.org and put it to DOM file)

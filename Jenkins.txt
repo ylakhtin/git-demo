@@ -1,0 +1,16 @@
+Cron for Jenkins
+	Use "?" to open hints in Build Triggers section
+Cron syntax
+# ***** command to execute
+# |||||_day of week (0-7) 6=Saturday 0,7=Sunday
+# ||||___month (1-12)
+# |||_____ day of month (1-31)
+# ||_______ hour (0-23)
+# |_________ min (0-59)
+
+
+*/5 * * * * - every 5 minutes (every time a minute can be divided by 5)
+0 */2 * *mon-fri - every two hours starting from Moday till Friday
+0 0 1,10,15 * * - midnight on 1st, 10th and 15th of every month
+@midnight - some time between 12.00 AM and 2:59 AM
+We can use H/5 * * * * - to run job if something is changed in VCS in recent 5 minutes (for load balancing)
