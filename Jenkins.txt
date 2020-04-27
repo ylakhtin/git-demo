@@ -14,3 +14,19 @@ Cron syntax
 0 0 1,10,15 * * - midnight on 1st, 10th and 15th of every month
 @midnight - some time between 12.00 AM and 2:59 AM
 We can use H/5 * * * * - to run job if something is changed in VCS in recent 5 minutes (for load balancing)
+
+Plugins
+	thinBackup - plugin to backup Jenkins
+	Job Config History - plugin to see settings change history and to roll back to previous states
+
+How to delete Jenkins:
+	1. Stop Jenkins service
+	2. Run command line interface as admin
+	3. Execute "sc delete Jankins" in CLI
+	4. Delete Jenkins directory
+	
+Literature:
+	"Jenkins. The Definitive Guide" by John Smart	// mostly for adding jobs via UI
+	"Jenkins 2: Up and Running" by Brent Laster		//New features, more complicated than the first one
+	https://jenkins.io
+	https://plugins.jenkins.io
